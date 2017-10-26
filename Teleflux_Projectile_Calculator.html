@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+	<head>
+	<title>Teleflux Projectile Calculator</title>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="Assets/Teleflux.css" />
+	</head>
+	
+	<body>
+		<h1>Welcome to the Teleflux Projectile-Swap Velocity Calculator!</h1>
+		<img src="Assets/Preswap.png" alt="Pre-Swap" class="left" />
+		<img src="Assets/Postswap.png" alt="Post-Swap" class="right" />
+		<table>
+			<tr>
+			<td><span class="descript">Speed of Occupied Bubble: </span></td>
+			<td><input class="var_in" type="number" value="0" id="b1" /></td>
+			</tr>
+			<tr>
+			<td><span class="descript">Speed of Target Bubble: </span></td>
+			<td><input class="var_in" type="number" value="0" id="b2" /></td>
+			</tr>
+			<tr>
+			<td><span class="descript">Speed of Projectile: </span></td>
+			<td><input class="var_in" type="number" value="0" id="v1" /></td>
+			</tr>
+			<tr>
+			<td><span class="descript">Lateral Angle (Degrees) Between Projectile and Occupied Bubble: </span></td>
+			<td><input class="var_in" type="number" value="0" id="t1" /></td>
+			</tr>
+			<tr>
+			<td><span class="descript">Azimuthal Angle (Degrees) Between Projectile and Occupied Bubble: </span></td>
+			<td><input class="var_in" type="number" value="0" id="p1" /></td>
+			</tr>
+			<tr>
+			<td><span class="descript">Lateral Angle (Degrees) Between Projectile and Target Bubble: </span></td>
+			<td><input class="var_in" type="number" value="0" id="t2" /></td>
+			</tr>
+			<tr>
+			<td><span class="descript">Azimuthal Angle (Degrees) Between Projectile and Target Bubble: </span></td>
+			<td><input class="var_in" type="number" value="0" id="p2" /></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td><button id="cbutton">Calculate!</button></td>
+			</tr>
+			<tr>
+			<td><span class="descript">The new velocity of the swapped projectile is: </span></td>
+			<td class="output"><span id="output_text"></span></td>
+			</tr>
+		</table>
+		
+		<script src="Assets/TelefluxScript.js"></script>
+	</body>
+
+</html>

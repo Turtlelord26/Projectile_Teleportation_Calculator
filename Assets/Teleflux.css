@@ -1,0 +1,44 @@
+body {
+	background-color: MediumOrchid;
+}
+h1 {
+	text-align: center;
+	color: white;
+}
+span.descript {
+	color: white;
+}
+input.var_in {
+	outline: 2px solid DarkGreen;
+}
+input.calculate! {
+	display: block;
+	margin: auto;
+}
+table {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-top: 20%;
+}
+td {
+	text-align: right;
+}
+td.output {
+	text-align: left;
+	border: 2px solid DarkGreen;
+	background-color: white;
+	height: 18px;
+}
+img {
+	position: absolute;
+	width: 40%;
+	height: 35%;
+	outline: 1px solid Black;
+}
+.left {
+	left: 5%;
+}
+.right {
+	right: 5%;
+}
